@@ -1,0 +1,648 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Flight</title>
+
+
+
+     <!-- font-awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+     <!-- radio tab content -->
+     <script type="text/javascript" src="https://code.jquery.com/jquery.min.js"></script>
+
+    <!-- css link -->
+    <link rel="stylesheet" href="./asset/css/flight1.css">
+    <style>
+    
+       
+       
+    </style>
+
+  </head>
+  <body  >
+
+
+
+<div class="showall">
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light" href="#">SKYROUTE</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""><i class="fa-solid fa-bars text-white"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link navl ms-5 active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navl ms-5" aria-current="page" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navl ms-5 " aria-current="page" href="#">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navl ms-5" aria-current="page" href="#">Agent Network</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navl ms-5" aria-current="page" href="#">Contact</a>
+              </li>
+              
+              
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+
+    <div class="container">
+    <div class="card crd" style="padding: 30px;">
+      <div class="row raw">
+      <div class="col-lg-5 col-md-6 col-sm-6 text-center">
+
+        <div class="d-flex justify-content-between">
+        <div class="text-center">
+          <h4>Coimbatore (CJB)</h4>
+          <h6 class="text-muted">25-jan-2024</h6>
+        </div>
+        <div class="mt-3"><i class="fa-solid fa-arrow-right-arrow-left"></i></div>
+        <div class="text-center">
+          <h4>Dubai (DXB)</h4>
+          <h6 class="text-muted">1-Mar-2024</h6>
+        </div>
+      </div>
+       </div>
+
+       <div class="col-lg-2 col-md-6 col-sm-6 text-center">
+        <div class="text-center">
+          <h5>Class Type</h5>
+          <h6 class="text-muted">Economy</h6>
+        </div>
+       </div>
+       <div class="col-lg-2 col-md-6 col-sm-6 text-center">
+        <div class="text-center">
+          <h5>Passenger</h5>
+          <h6 class="text-muted">1 Adult</h6>
+        </div>
+       </div>
+       <div class="col-lg-3 col-md-6 col-sm-6 text-center">
+      <div >
+        <button class="modify">Modify <i class="fa-solid fa-pen-to-square"></i></button>
+      </div>
+       </div>
+      </div>
+    </div>
+    </div>    
+
+
+          
+
+          <div class="container-fluid cont" style="padding: 30px 90px; z-index: -3;"> 
+            
+     
+            <div class="row" >
+
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card card-one" style="padding: 0px;">
+                      
+                        <div style="padding: 15px 15px 0px 15px;">
+                        <div class="d-flex justify-content-between">
+                            <span><h5 class="text-dark"><b>Filters</b></h5></span>
+                            <span><a href="" style="text-decoration: none;" class="text-muted">clear all</a></span>
+                        </div>
+                        <span><h6 class="text-muted">Showing 180 Flights</h6></span>
+                    </div>
+               
+                    <hr class="text-dark" >
+               
+
+                    <div  style="padding: 0px 15px 0px 15px;">
+                        <h6 class="text-dark">Departure</h6>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6  mt-2">
+                                <button class="departbtn">Before 6AM</button>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 mt-2">
+                                <button class="departbtn">6AM - 12AM</button>
+                            </div>
+                        </div>
+
+                        <div class="row ">
+                            <div class="col-lg-6 col-md-6 col-sm-6 mt-2">
+                                <button class="departbtn">12Pm - 6PM</button>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 mt-2">
+                                <button class="departbtn">After 6PM</button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div  style="padding: 10px 15px 0px 15px;">
+                        <h6 class="text-dark">Return</h6>
+                        <div class="row ">
+                            <div class="col-lg-6 col-md-6 col-sm-6  mt-2">
+                                <button class="departbtn">Before 6AM</button>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 mt-2">
+                                <button class="departbtn">6AM - 12AM</button>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6 mt-2">
+                                <button class="departbtn">12Pm - 6PM</button>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 mt-2">
+                                <button class="departbtn">After 6PM</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <hr class="text-dark" >
+                    <div  style="padding: 10px 15px 0px 15px;">
+                        <h6 class="text-dark">Onwards Stop</h6>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6  mt-2">
+                                <button class="departbtn">Direct</button>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6  mt-2">
+                                <button class="departbtn">1 stop</button>
+                            </div>
+                        </div>
+
+                        <div class="row ">
+                            <div class="col-lg-6 col-md-12 col-sm-12  mt-2">
+                                <button class="departbtn">2+ stop</button>
+                            </div>
+                          
+                        </div>
+
+                    </div>
+
+                    <div  style="padding: 10px 15px 0px 15px;">
+                        <h6 class="text-dark ">Return Stop</h6>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6  mt-2">
+                                <button class="departbtn">Direct</button>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6  mt-2">
+                                <button class="departbtn">1 stop</button>
+                            </div>
+                        </div>
+
+                        <div class="row ">
+                            <div class="col-lg-6 col-md-12 col-sm-12  mt-2">
+                                <button class="departbtn">2+ stop</button>
+                            </div>
+                          
+                        </div>
+
+                    </div>
+
+                    <hr class="text-dark">
+
+                    <div style="padding: 0px 15px 0px 15px;">
+                        <h6 class="text-dark">Pricing Range in US$</h6>
+                        <div class="wrapper">
+                          <div class="values">
+                            <span id="range1">
+                              0
+                            </span>
+                            <span> &dash; </span>
+                            <span id="range2">
+                              100
+                            </span>
+                          </div>
+                          <div class="cont1">
+                            <div class="slider-track"></div>
+                            <input type="range" min="0" max="1000" value="100" id="slider-1" oninput="slideOne()">
+                            <input type="range" min="0" max="1000" value="900" id="slider-2" oninput="slideTwo()">
+                          </div>
+                        </div>
+                    </div>
+
+                    <hr class="text-dark">
+
+                    <div class="labb lavv"  style="padding: 0px 15px 0px 15px;">
+                      <div class="mt-3">
+                      <h6 class="text-dark">Facilities</h6>
+                      <label for="baggage"><input type="checkbox" id="baggage"> &nbsp; Baggage</label></div>
+                      <div class="mt-3"> <label for="Meal"><input id="Meal" type="checkbox"> &nbsp; In-flight Meal</label></div>
+                      <div class="mt-3"> <label for="Entertainment"><input type="checkbox" id="Entertainment"> &nbsp;In-flight Entertainment</label></div>
+                      <div class="mt-3"><label for="WiFi"><input type="checkbox" id="WiFi"> &nbsp;WiFi</label></div>
+                      <div class="mt-3"> <label for="Port"><input id="Port" type="checkbox"> &nbsp; Power/USB Port</label></div>
+                  </div>
+
+<hr class="text-dark">
+                  <div class="labb"  style="padding: 0px 15px 0px 15px;">
+
+      <div class="d-flex justify-content-between ">
+      <h6 class="text-dark ">Preferred Airlines</h6>
+      <a href="#" class="text-muted" style="font-size: 14px;">Reset</a>
+      </div>
+                  
+      <div class="d-flex justify-content-between mt-1">
+      <div class="check">
+      <label for="air"><input type="checkbox" id="air"> <img src="https://themezhub.net/geotrip-live/geotrip/assets/img/air-1.png" alt="" > Air India</label>
+      </div>
+      <div><p class="text-muted mt-2" style="font-size: 14px;" >$360</p></div>
+      </div>
+     
+
+         <div class="d-flex justify-content-between mt-2">
+        <div class="check">
+        <label for="jal"><input id="jal" type="checkbox"> <img src="https://themezhub.net/geotrip-live/geotrip/assets/img/air-2.png" alt="" class="indigo"> Jal Airlines</label>
+        </div>
+        <div><p class="text-muted mt-2 " style="font-size: 14px;" >$360</p></div>
+         </div>
+
+
+          <div class="d-flex justify-content-between mt-2">
+          <div class="check">
+          <label for="indigo"><input type="checkbox" id="indigo"> <img src="https://themezhub.net/geotrip-live/geotrip/assets/img/air-3.png" class="indigo" alt=""> Indigo</label>
+          </div>
+          <div><p class="text-muted mt-2" style="font-size: 14px;" >$360</p></div>
+          </div>
+
+
+          <div class="d-flex justify-content-between mt-2">
+          <div class="check">
+          <label for="asia"><input type="checkbox" id="asia"> <img src="./asset/images/air-4.png" alt=""> Air Asia</label>
+          </div>
+          <div><p class="text-muted mt-2 " style="font-size: 14px;" >$360</p></div>
+           </div>
+
+            <div class="d-flex justify-content-between mt-2 mb-3">
+            <div class="check">
+            <label for="vistara"><input id="vistara" type="checkbox"> <img src="./asset/images/air-5.png" alt="" class="indigo"> Vistara</label>
+            </div>
+            <div><p class="text-muted mt-2" style="font-size: 14px;" >$360</p></div>
+             </div>
+ 
+                </div>    
+
+                </div>
+
+                </div>
+                   
+
+            
+
+<div class="col-lg-9 col-md-8 col-sm-12">
+
+
+  <div class="row">
+
+    <div class="col-lg-5 col-md-6 col-sm-12">
+    <div>
+      <h6 class="text-dark mt-2"><b>Showing 280 Search results</b> </h6>
+    </div></div>
+
+    <div class="col-lg-7 col-md-6 col-sm-12">
+
+    <div class="row">
+      <div class="col-lg-3 col-md-3 col-4 col-sm-3 mt-2 ">
+        <div class="switch1 switchon">
+          <label for="map"><input type="checkbox" id="map" class="switch"> &nbsp; Map</label>
+        </div>
+      </div>
+      <div class="col-lg-9 col-md-9  col-sm-12 mt-2">
+        <div class="tabon d-flex justify-content-between">
+          <button class="active">Our Trending</button>
+          <button >Most Popular</button>
+          <button>Lowest Price</button>
+        </div>
+      </div>
+    </div>
+
+  
+      
+
+    </div>
+  </div>
+
+  <div class="card mt-2" style="padding: 20px;">
+
+    <div class="row">
+      <div class="col-lg-10 col-md-9 col-sm-12 bord">
+
+        <div class="d-flex">
+        <span><button class="departure">Departure</button></span>
+        <span><p class="text-muted mt-1">&nbsp; 26 jun 2023</p></span>
+      </div>
+
+<div class="row">
+
+<div class="col-lg-4 col-md-3 col-sm-12">
+  <div class="d-flex ">
+    <span> <img src="https://themezhub.net/geotrip-live/geotrip/assets/img/air-1.png" width="70px" alt=""></span> 
+    <span class="text-dark mt-3">Quatar Airways <span class="text-muted ms-2">(first class)</span></span>
+   
+    </span>
+    </div>
+</div>
+
+<div class="col-lg-6 col-md-6 col-sm-12 mt-3">
+
+  <div class="d-flex">
+    <div>
+     <span><h6 class="text-dark ms-1">7:40</h6></span> 
+    <span> <h6 class="text-muted">(DOH)</h6></span> 
+    </div>
+    <div class="fas_plane">
+    <h6 class="text-muted "><b>O</b>----------------------<b>O</b></h6>
+    <span class="fa_plane"><i class="fa fa-plane text-muted"></i></span>
+    </div>
+    <div>
+      <span><h6 class="text-dark ms-1">12:20</h6></span> 
+     <span> <h6 class="text-muted">(DEL)</h6></span> 
+     </div>
+  </div>
+
+</div>
+
+<div class="col-lg-2 col-md-3 col-sm-12 mt-3">
+
+  <div>
+    <div class="text-dark">4H 40Min</div>
+    <span class="text-muted ms-2">2 stop</span>
+  </div>
+  
+</div>
+
+
+ 
+</div>
+
+<div class="d-flex mt-3">
+  <span><button class="return">Return</button></span>
+  <span><p class="text-muted mt-1">&nbsp; 26 jun 2023</p></span>
+</div>
+
+
+<div class="row">
+
+  <div class="col-lg-4 col-md-3 col-sm-12">
+    <div class="d-flex ">
+      <span class="mt-3">  <img src="https://themezhub.net/geotrip-live/geotrip/assets/img/air-2.png" width="45px" alt=""></span> 
+      <span class="text-dark ms-2 mt-3">Quatar Airways <span class="text-muted ms-2">(Business)</span></span>
+     
+      </span>
+      </div>
+  </div>
+  
+  <div class="col-lg-6 col-md-6 col-sm-12 mt-3">
+  
+    <div class="d-flex">
+      <div>
+       <span><h6 class="text-dark ms-1">14:10</h6></span> 
+      <span> <h6 class="text-muted">(DEL)</h6></span> 
+      </div>
+      <div class="fas_plane">
+      <h6 class="text-muted "><b>O</b>----------------------<b>O</b></h6>
+      <span class="fa_plane faso"><i class="fa fa-plane text-muted"></i></span>
+      </div>
+      <div>
+        <span><h6 class="text-dark ms-1">19:30</h6></span> 
+       <span> <h6 class="text-muted">(DOH)</h6></span> 
+       </div>
+    </div>
+  
+  </div>
+  
+  <div class="col-lg-2 col-md-3 col-sm-12 mt-3">
+  
+    <div>
+      <div class="text-dark">5H 30Min</div>
+      <span class="text-muted ms-2">2 stop</span>
+    </div>
+    
+  </div>
+  
+  
+   
+  </div>
+  
+
+</div>
+
+<div class="col-lg-2 col-md-3 col-sm-12">
+  <div class="d-flex justify-content-end mt-3">
+    <span title="Free Wifi"><i class="fa-solid text-muted ico fa-wifi"></i></span>
+    <span title="Food Available"><i class="fa-solid text-muted ico fa-utensils"></i></span>
+    <span title="One Cup Coffee"><i class="fa-solid text-muted ico fa-mug-saucer"></i></span>
+    <span title="Pets Allowed"><i class="fa-solid text-muted ico fa-dog"></i></span>
+
+  </div>
+
+  <div class="d-flex justify-content-end mt-2"><button class="return">15% off</button></div>
+
+  <div class="d-flex justify-content-end mt-2">
+    <h2><b>US$934</b></h2>
+  </div>
+
+  <div class="d-flex justify-content-end ">
+    <p class="text-muted">Refundable</p>
+  </div>
+
+  <div class="btn-on d-flex justify-content-end ">
+    <button type="button" class="btn-one">Select flights</button>
+  </div>
+
+</div>
+</div>
+  </div>
+ 
+<div class="card mt-4">
+  <div class="row">
+
+    <div class="col-lg-2 col-md-2 col-sm-12 ">
+      <div class=" text-center " style="margin-top: 80%; margin-left:2px;">
+      <img src="https://dl.buymytrip.com/resources/airlines_logos/AI.png"  width="60px" alt="">
+      <div>Air India Limited</div>
+    </div>
+
+    </div>
+
+  <div class="col-lg-7 col-md-7 col-sm-12" style="padding: 20px 10px;">
+   <div class="card cd" style="padding: 10px;">
+    <div class="row">
+   <div class="col-lg-4 col-md-3 col-sm-12" style="border-right: 1px dashed grey;">
+
+    <div style="padding: 10px 5px; ">
+      <p class="city">Coimbatore</p>
+      <p class="city-air text-muted">Coimbatore International Airport</p>
+    </div>
+  
+
+
+   </div>
+
+   <div class="col-lg-5 col-md-6 col-sm-12" style="border-right: 1px dashed grey;">
+<div class="d-flex justify-content-between mt-3" >
+    <div style="padding: 5px;">
+      <p class="city-air text-center">Dec 31</p>
+      <p class="time text-center">15:10</p>
+    </div>
+
+    <div style="padding: 5px;">
+      <p class="city-air line text-center text-muted"><b>Direct</b></p>
+     
+      <p class="city-air text-center text-muted">1H 5M</p>
+    </div>
+
+    <div style="padding: 5px;">
+      <p class="city-air text-center">Dec 31</p>
+      <p class="time text-center">16:15</p>
+    </div>
+
+</div>
+
+
+   </div>
+
+   <div class="col-lg-3 col-md-3 col-sm-12 " >
+    <div style="padding: 10px 5px;">
+      <p class="city">Chennai</p>
+<p class="city-air">Chennai International Airport</p>
+    </div>
+
+   </div>
+  </div>
+   </div>
+
+   <div class="card cd mt-2" style="padding: 10px;">
+    <div class="row">
+
+      <div class="col-lg-3 col-md-3 col-sm-12 " style="border-right: 1px dashed grey;" >
+        <div style="padding: 10px 5px;">
+          <p class="city">Chennai</p>
+    <p class="city-air">Chennai International Airport</p>
+        </div>
+    
+       </div>
+
+
+   <div class="col-lg-5 col-md-6 col-sm-12" style="border-right: 1px dashed grey;">
+<div class="d-flex justify-content-between mt-3" >
+    <div style="padding: 5px;">
+      <p class="city-air text-center">Dec 31</p>
+      <p class="time text-center">15:10</p>
+    </div>
+
+    <div style="padding: 5px;">
+      <p class="city-air line text-center text-muted"><b>Direct</b></p>
+     
+      <p class="city-air text-center text-muted">1H 5M</p>
+    </div>
+
+    <div style="padding: 5px;">
+      <p class="city-air text-center">Dec 31</p>
+      <p class="time text-center">16:15</p>
+    </div>
+
+</div>
+
+
+   </div>
+
+   <div class="col-lg-4 col-md-3 col-sm-12" >
+
+    <div style="padding: 10px 5px; ">
+      <p class="city">Coimbatore</p>
+      <p class="city-air text-muted">Coimbatore International Airport</p>
+    </div>
+  
+
+
+   </div>
+
+  </div>
+   </div>
+
+
+   </div>
+
+    <div class="col-lg-3 col-md-3 col-sm-12" style="background-color: rgb(217, 255, 217);">
+
+      <div class="mt-5">
+        <h4 class="text-center text-black">US$ <b style="font-size: 35px;"> 243</b>.43</h4>
+        <p class=" text-center text-muted">per person</p>
+        <div class="text-center">  <button class="btn-one mt-2" style="padding: 5px 20px; font-size: 20px;"><b>Select</b></button></div>
+      
+<div  class="mt-3 text-center">
+        <a href="" style="text-decoration: none;">Fare details</a>
+      </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+
+
+</div>
+
+<!-- loader -->
+
+      <div class="loader">
+        <div class="wait text-white"><h3><b>Searching for Flights.....</b></h3>  </div>
+        <div class="iata_code departure_city"></div>
+        <div class="plane">
+          <img src="https://zupimages.net/up/19/34/4820.gif" class="plane-img">
+        </div>
+        
+        <div class="earth-wrapper">
+          <div class="earth"></div>
+        </div>  
+        <div class="iata_code arrival_city"></div>
+
+      </div>
+
+
+
+
+
+
+       
+<!-- traveler for flights -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ 
+
+<!-- date-picker -->
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+<!-- js link -->
+<script src="./asset/css/flight1.js"></script>
+
+
+<!-- Optional JavaScript; choose one of the two! -->
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<!-- Option 2: Separate Popper and Bootstrap JS -->
+<!--
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+-->
+</body>
+</html>

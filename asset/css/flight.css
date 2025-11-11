@@ -1,0 +1,1108 @@
+/* responsive */
+/*  swap*/
+
+@media only screen and (max-width:800px){
+  .swappie {
+ 
+    width: 45px !important;
+    height: 45px !important;
+    top: 24% !important;
+    left: 45% !important;
+    font-size: 14px !important;
+  }
+  .swap{
+    border-radius: 50% !important;
+  }
+  .swappie-1 {
+    font-size: 14px !important;
+    width: 45px !important;
+    height: 45px !important;
+    top: 24% !important;
+    left: 45% !important;
+  }
+  row{
+    --bs-gutter-x: 0.5rem !important;
+  }
+  
+}
+@media only screen and (max-width:992px) and (min-width:800px){
+  .swappie{
+      top: 14% !important;
+      left: 46% !important;
+  }
+  .swappie-1 {
+  
+    top: 13.5% !important;
+    
+    left: 46.5% !important;
+}
+.cont-f{
+  padding: 70px !important;
+}
+}
+
+@media only screen and (max-width:800px){
+    .container-fluid{
+        padding: 10px !important;
+    }
+    .dropdown-options{
+      width: 130px !important;
+    }
+    .dropdown-options li{
+      font-size: 14px !important;
+    }
+    .heado{
+      padding: 30px 10px;
+    }
+    .add_button{
+      padding: 5px !important;
+    }
+    .card{
+        padding: 20px !important;
+        box-shadow: none !important;
+        border: none !important;
+        backdrop-filter: blur(5px ) !important; 
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset !important
+        ; 
+    }
+    
+  
+    body{
+       background-image: url(https://w0.peakpx.com/wallpaper/39/862/HD-wallpaper-girl-travel-camping.jpg) !important;
+       background-attachment: fixed !important;
+       background-repeat:repeat;
+       background-size: cover;
+       /* backdrop-filter: blur(3px) !important; */
+
+    }
+   
+   
+    #pills-tab{
+        justify-content: space-between !important;
+        margin-bottom: 10px !important;
+    }
+  
+    .nav-pills{
+      /* background-color:#1A2B48  !important;
+      padding-bottom: 10px !important; */
+    }
+    .nav-pills .nav-link{
+    line-height: 0.5 !important;
+    color: rgb(120, 120, 120) !important;
+    font-weight: 600;
+    font-size: 18px !important;
+    padding: 10px !important;
+    margin-right: 0px !important;
+    }
+    .nav-pills .nav-link.active{
+      background-color:#000000 !important;
+      color: rgb(255, 255, 255) !important;
+      font-size: 18px !important;
+      border-radius: 50% 20% / 10% 40% !important;
+      border:none !important;  
+    }
+    .text{
+        font-size: 15px !important;
+    }
+    input[type="radio"]{
+      width: 13px !important;
+      height: 13px !important;
+    
+    }
+    .inp-1{
+        height: 40px !important;
+        margin-bottom: 15px !important;
+        border: none !important;
+        border-bottom: 1px solid rgb(0, 0, 0) !important;
+        border-radius: 0px !important;
+    }
+    .inp{
+        height: 35px !important;
+    }
+
+    .trav_inner1{
+        font-size: 12px !important;
+    }
+    .minus , .plus{
+      border: 1px solid rgb(255, 255, 255);
+        width: 30px !important;
+        text-decoration: none;
+        font-size: 20px;
+        height: 30px !important;
+      
+        
+    }
+    .txt_trav{
+        height: 30px !important;
+    }
+  
+  input[value="1"]{
+    font-size: 10px !important;
+    color: black !important;
+  }
+  input[value="0"]{
+    font-size: 10px !important;
+    color: black !important;
+  }
+  .trav_done{
+    font-size: 12px !important;
+  }
+  .favon{
+    font-size: 14px !important;
+  
+  }
+  .fa-calendar-days{
+    padding: 12px 15px !important;
+  }
+  .submit{
+    font-size: 14px !important;
+    border: none !important;
+  }
+  .head{
+    font-size: 28px !important;
+    color: rgb(255, 255, 255) !important;
+  }
+  .head-one{
+    font-size: 16px !important;
+    color: rgb(181, 181, 181) !important;
+  }
+  .ui-datepicker-title{
+    font-size: 13px !important;
+  }
+  .ui-datepicker-week-col {
+	color: #2c8ab9 !important;
+	font-weight: 400;
+	font-size: 0.75rem;
+}
+.ui-state-default{
+    height: 1.5rem !important;
+    font-size: 12px !important;
+    padding: 0px !important;
+}
+.ui-datepicker-calendar thead th{
+    color: rgb(0, 0, 0) !important;
+}
+.ui-datepicker-calendar tbody td{
+    width: 25px !important;
+   line-height: 1.5  !important;
+}
+.ui-datepicker-header{
+    line-height: 0.5 !important;
+    color: rgb(0, 0, 0) !important;
+} 
+.ui-datepicker-calendar tbody td a{
+    color: rgb(0, 0, 0) !important;
+   
+}
+
+tbody, td, tfoot, th, thead, tr{
+    line-height: 1 !important;
+}
+tbody, td, tfoot, th, thead, tr .ui-state-disabled{
+ line-height: 10px !important;
+}
+#ui-datepicker-div{
+    background-color: transparent !important;
+    backdrop-filter: blur(30px);
+    
+}
+.ui-datepicker-title{
+  color: black !important;
+}
+
+.raw{
+    margin-top: 0px !important;
+}
+.row
+{
+    --bs-gutter-x: 1.5rem;
+}
+.box{
+  padding: 10px 0px 0px 0px !important;
+}
+
+}
+
+
+
+body{
+    background-image: url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77702102947.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+/* form{
+  line-height: 0.5;
+} */
+/* .row
+{
+    --bs-gutter-x: 0.5rem;
+} */
+
+.card{
+    padding: 10px;
+    background: rgb(255, 255, 255) ;
+    opacity: 0.7;
+    backdrop-filter: blur(3px);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.row {
+  --bs-gutter-x: 1rem;
+}
+/* navbar */
+
+.navbar{
+   background-color:  #1A2B48;
+   margin-bottom: 50px;
+   }
+
+   .navbar-brand{
+     color:black;
+     font-weight: bold;
+     font-size: 30px;
+   }
+   .navbar-toggler{
+    width:  auto !important;
+
+   }
+   .navbar-toggler:focus{
+    border:  none !important;
+    box-shadow: none !important;
+   }
+   
+   .navbar-collapse .nav-item .navl{
+     color: rgb(255, 255, 255) ;
+   }
+   .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+     color:lightblue;
+     font-weight: bold;
+   }
+   
+   .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+     color:lightblue;
+     font-weight: bold;
+   }
+
+
+   .head{
+    color: rgb(77, 75, 75);
+   }
+   .head-one{
+    color: rgb(255, 255, 255);
+   }
+
+   /* tab content */
+
+   
+                  /* tabcontent */
+                  
+                  
+.nav-pills{
+    background-color:transparent;
+     /* padding: 10px 10px 0px 10px; */
+     /* border-bottom: 1px solid grey;  */
+     /* box-shadow: 0px 50px 100px -20px rgba(50, 50, 93, 0.25), 0px 30px 60px -30px rgba(0, 0, 0, 0.3), inset 0px -2px 6px 0px rgba(10, 37, 64, 0.35); */
+ }
+ 
+ .nav-pills .nav-link:focus{
+     background-color: transparent;
+     color: #000000;
+     
+  
+    
+ }
+ #pills-tab .nav-item{
+  line-height: 1;
+ }
+ 
+ .nav-pills .nav-link{
+     background-color: transparent;
+     color: black;
+     font-size: 16px;
+     margin-right: 30px;
+     font-family:sans-serif;
+     border-radius: 0px;
+     transition: 0.2s ease;
+ }
+ button{
+   width: 100% !important;
+   
+ }
+ .nav-pills .nav-link.active{
+   
+    border-radius: 10px;
+    color: black;
+    background: transparent;
+    /* border-bottom: 3px solid #000000; */
+    border-bottom: 1mm double rgba(0, 0, 0, 0.6);
+   border-radius: 0px;
+    font-weight: bolder;
+ }
+ .fa-plane{
+     margin-right: 10px;  
+     transform: rotate(360deg);
+ }
+
+ /* radio tab */
+
+ .box{
+    padding:10px 10px 0px 10px;
+    display: none; 
+}
+input[type="radio"]{
+    width: 14px;
+    height: 14px;
+   
+    accent-color: #1A2B48 ;
+}
+
+.text{
+   border: none;
+
+    font-size: 14px;
+    color: black;
+    background-color: transparent;
+}
+.texto{
+    border:none !important;
+    font-size: 14px;
+    color: black;
+
+    height: 30px;
+}
+
+.texto .opt1{
+    color: rgb(0, 0, 0);
+    font-size: 14px; 
+}
+
+/* round-trip */
+.inp{
+    border: none;
+    height: 37px;
+    background: transparent;
+    padding: 10px 15px;
+   
+}
+.custom-dropdown{
+  width: 95%;
+}
+
+.inp:focus{
+    box-shadow: none;
+}
+input::placeholder{
+    color: black !important;
+}
+.inp-1{
+    border: 1.2px solid black;
+    /* border: 1.5px solid rgb(4, 4, 88); */
+    height: 40px;
+    border-radius: 8px;
+}
+input[type="text"]{
+    font-size: 12px;
+    color: black !important;
+}
+.search-air::placeholder{
+    color: aliceblue !important;
+}
+.favon{
+    padding: 10px 5px 10px 17px;
+    color: black;
+}
+.swap{
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+.swappie{
+  position: absolute;
+  /* padding: 5px; */
+  width: 50px;
+  height: 50px;
+  top: 21.7%;
+  background-color: transparent;
+  left: 22.4%; 
+  border-radius: 0px;
+  
+}
+.fa-arrow-right-arrow-left{
+  transition: 0.5s ease;
+
+}
+.swappie:hover .fa-arrow-right-arrow-left{
+
+  transform: rotate(180deg);
+}
+.swappie:focus{
+  transform: rotate(180deg);
+}
+.swappie-1{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 21.5%;
+  background-color: transparent;
+  left: 30.6%; 
+}
+.swappie-2{
+  position: absolute;
+  top: 16.5%;
+}
+
+/* switch */
+
+input.switch {
+  position: relative;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  width: 20px !important;
+  height: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  background: #000000;
+  transition: box-shadow 0.3s ease-in-out, padding 0.25s ease-in-out;
+  transition-delay: 0.1s, 0s;
+}
+.switch1 label{
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+}
+.switch{
+  margin-top: 5px;
+}
+input.switch:focus {
+  border: 0;
+  outline: 0;
+}
+input.switch:checked {
+  transition-delay: 0s, 0s;
+  box-shadow: inset 0 0 0 2.62857em #00c169 !important;
+  padding-left: 10px;
+}
+input.switch:before {
+  display: inline-block;
+  height: 6px;
+  width: 6px;
+  margin:2px;
+  background-color: #ffffff;
+  border-radius: 2.1em;
+  transition: all 0.1s ease 0.1s;
+}
+input.switch:before, input.switch:after {
+  content: "";
+  display: block;
+}
+input.switch:active::before {
+  transition: all 0.1s ease 0.05s;
+}
+
+
+
+/* date-picker */
+
+.fa-calendar-days{
+    padding: 10px 5px 10px 10px;
+}
+.wrapper {
+	max-width: 18rem;
+	padding: 0 0.5rem;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 4rem;
+}
+label {
+	font-size: 0.75rem;
+	font-weight: 400;
+	display: block;
+	margin-bottom: 0.5rem;
+	color: black;
+  /* border: 1.2px solid rgb(255, 255, 255); */
+	padding: 0.5rem 0.75rem;
+	border-radius: 0.5rem;
+}
+/* input {
+	font-family: 'Roboto', sans-serif;
+	display:block;
+	border: none;
+	border-radius: 0.25rem;
+	border: 1px solid transparent;
+	line-height: 1.5rem;
+	padding: 0;
+	font-size: 1rem;
+	color: #607D8B;
+	width: 100%;
+	margin-top: 0.5rem;
+} */
+input:focus {outline: none;}
+#ui-datepicker-div {
+	display: none;
+	/* background-color: #fff; */
+	box-shadow: 0 0.125rem 0.5rem rgba(0,0,0,0.1);
+	margin-top: 0.25rem;
+	border-radius: 0.5rem;
+	padding: 0.5rem;
+}
+.ui-state-disabled{
+ color: rgb(120, 120, 120);
+ font-size: 13px;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.ui-datepicker-calendar thead th {
+	padding: 0.25rem 0;
+	text-align: center;
+	font-size: 0.75rem;
+	font-weight: 600;
+	color:rgb(255, 255, 255);
+}
+.ui-datepicker-calendar tbody td {
+	width: 2.5rem;
+	text-align: center;
+	padding: 0;
+}
+.ui-datepicker-calendar tbody td a {
+	display: block;
+	border-radius: 0.25rem;
+	line-height: 1.5rem;
+	transition: 0.3s all;
+	color: #546E7A;
+	font-size: 13px;
+	text-decoration: none;
+}
+#ui-datepicker-div{
+    background-color: transparent !important;
+    backdrop-filter: blur(30px);   
+}
+
+.ui-datepicker-calendar tbody td a:hover {	
+	background-color: #ffffff;
+  color: black;
+}
+.ui-datepicker-calendar tbody td a.ui-state-active {
+
+  background-color: #c9f5f3;
+	color: rgb(0, 0, 0);
+}
+.ui-datepicker-header a.ui-corner-all {
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	width: 2rem;
+	height: 2rem;
+	margin: 0.5rem;
+	border-radius: 0.25rem;
+	transition: 0.3s all;
+}
+.ui-datepicker-header a.ui-corner-all:hover {
+	background-color: #87c1e7;
+}
+.ui-datepicker-header a.ui-datepicker-prev {	
+	left: 0;	
+	background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMyIgaGVpZ2h0PSIxMyIgdmlld0JveD0iMCAwIDEzIDEzIj48cGF0aCBmaWxsPSIjNDI0NzcwIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik03LjI4OCA2LjI5NkwzLjIwMiAyLjIxYS43MS43MSAwIDAgMSAuMDA3LS45OTljLjI4LS4yOC43MjUtLjI4Ljk5OS0uMDA3TDguODAzIDUuOGEuNjk1LjY5NSAwIDAgMSAuMjAyLjQ5Ni42OTUuNjk1IDAgMCAxLS4yMDIuNDk3bC00LjU5NSA0LjU5NWEuNzA0LjcwNCAwIDAgMS0xLS4wMDcuNzEuNzEgMCAwIDEtLjAwNi0uOTk5bDQuMDg2LTQuMDg2eiIvPjwvc3ZnPg==");
+    background-color: rgb(255, 255, 255);
+	background-repeat: no-repeat;
+	background-size: 0.5rem;
+	background-position: 50%;
+	transform: rotate(180deg);
+    border-radius: 50%;
+}
+.ui-datepicker-header a.ui-datepicker-next {
+	right: 0;
+	background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMyIgaGVpZ2h0PSIxMyIgdmlld0JveD0iMCAwIDEzIDEzIj48cGF0aCBmaWxsPSIjNDI0NzcwIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik03LjI4OCA2LjI5NkwzLjIwMiAyLjIxYS43MS43MSAwIDAgMSAuMDA3LS45OTljLjI4LS4yOC43MjUtLjI4Ljk5OS0uMDA3TDguODAzIDUuOGEuNjk1LjY5NSAwIDAgMSAuMjAyLjQ5Ni42OTUuNjk1IDAgMCAxLS4yMDIuNDk3bC00LjU5NSA0LjU5NWEuNzA0LjcwNCAwIDAgMS0xLS4wMDcuNzEuNzEgMCAwIDEtLjAwNi0uOTk5bDQuMDg2LTQuMDg2eiIvPjwvc3ZnPg==');
+    background-color: rgb(255, 255, 255);
+	background-repeat: no-repeat;
+	background-size: 10px;
+	background-position: 50%;
+    border-radius: 50%;
+
+}
+.ui-datepicker-header a>span {
+	display: none;
+}
+.ui-datepicker-title {
+	text-align: center;
+	line-height: 2rem;
+	margin-bottom: 0.25rem;
+	font-size: 0.875rem;
+	font-weight: 600;
+	padding-bottom: 0.25rem;
+  color: rgb(0, 0, 0);
+
+}
+.ui-datepicker-week-col {
+	color: #78909C;
+	font-weight: 400;
+	font-size: 0.75rem;
+}
+.ui-datepicker-calendar tbody td a{
+    color: rgb(0, 0, 0);
+  
+    /* font-weight: 600; */
+}
+
+
+
+/* traveler for flights child, adult , infants */
+
+input[type="checkbox"]{
+    accent-color: #1A2B48 ;
+}
+.trav_engine {
+  
+    position: relative;
+    /* width: 230px; */
+    width: 100%;
+}
+
+.trav_toggle {
+    /* width: 210px; */
+    width: 80%;
+    box-sizing: border-box;
+    line-height:32px;
+    font-size: 0;
+    position: absolute;
+    top: 1%;
+    /* color: white !important; */
+}
+
+.trav_form {
+  border: 1.2px solid rgb(0, 0, 0);
+  
+    background-color:rgb(255, 255, 255);
+    z-index: 4;
+    backdrop-filter: blur(30px);
+    box-sizing: border-box;
+    float: left;
+    position:absolute;
+    left: -10%;
+    top: 117%;
+}
+.trav_item {
+  border-bottom: 1.2px solid rgb(0, 0, 0);
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    float: left;
+}
+input[value="1"]{
+    color: rgb(0, 0, 0) !important;
+    background-color: transparent;
+}
+input[value="0"]{
+    color: rgb(0, 0, 0) !important;
+    background-color: transparent;
+}
+.trav_inner1 {
+    width: 40%;
+    float: left;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    box-sizing: border-box;
+}
+.trav_inner1 span {
+    font-size: 11px;
+    display: block;
+    color: rgb(0, 0, 0);
+}
+.trav_inner2 {
+    width: 60%;
+    float: left;
+    font-size: 13px;
+    line-height: 30px;
+    color: #000000;
+    box-sizing: border-box;
+    display: flex;
+}
+.minus, .plus {
+  border: 1.2px solid rgb(0, 0, 0);
+    width: 36px;
+    text-decoration: none;
+    font-size: 18px;
+    height: 34px;
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+    /* background: #ddd;   
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(242,242,242,1) 48%, rgba(255,255,255,1) 100%); 
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(242,242,242,1) 48%,rgba(255,255,255,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(242,242,242,1) 48%,rgba(255,255,255,1) 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0); */
+    color: rgb(0, 0, 0);
+}
+.minus {
+    border-radius: 50% 0 0 50%;
+}
+.plus {
+    border-radius: 0 50% 50% 0;
+}
+.txt_trav {
+    outline:none;
+    border: 1.2px solid rgb(0, 0, 0);
+    height: 34px;
+    width: 36px;
+    float: left;
+    text-align: center;
+    line-height: 34px;
+    box-sizing: border-box;
+    border-left: 0;
+    border-right: 0;
+    font-size: 16px;
+    color: #000000;
+}
+.txt_Traveler[type="text"]{
+  border:none !important;
+  font-size: 14px !important;
+  
+}
+
+
+.txt_Traveler {
+    color: rgb(0, 0, 0);
+    background: transparent !important;
+    width: 82%;
+    box-sizing: border-box;
+    padding: 10px;
+    height: 30px;
+    outline: none;
+    border-radius: 0px;
+    border:none;
+}
+
+.trav_done {
+    padding: 6px;
+    display: block;
+    border-radius: 2px;
+    background: #ffffff;
+    font-size: 14px;
+    border: 1.2px solid rgb(0, 0, 0);
+    color: #000000;
+    font-weight: bold;
+    width:100%;
+    margin: 0 auto;
+    text-align: center;
+    cursor: default;
+}
+
+.trav_toggle.open {
+    background: url(https://cdn4.iconfinder.com/data/icons/arrow-sets-2/32/down-round-arrow-ico-128.png) no-repeat right 8px;
+ 
+    background-size: 11px;
+}
+
+.trav_toggle.close {
+    background: url(https://cdn4.iconfinder.com/data/icons/arrow-sets-2/32/up-arrow-ico-128.png) no-repeat right 8px;
+    background-size: 11px;
+}
+
+/* submit */
+.form-control:focus{
+    box-shadow: none;
+    background-color: transparent;
+}
+.submit{
+    height: 35px;
+    margin-top: 5px;
+    font-size: 14px;
+    padding: 0px 15px;
+    color: #ffffff;
+    font-weight: 600;
+  
+    background-color: rgb(0, 0, 0);
+    /* border: 1px solid grey; */
+}
+.submit:hover{
+    /* background-color: #ffffff; */
+    background-color: rgb(141, 141, 141)smoke;
+    color: rgb(255, 255, 255);
+}
+
+
+button{
+  border: none;
+}
+
+/* json */
+
+
+
+.dropdown-options {
+    position: absolute;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+   z-index: 5;
+    /* border: 1px solid #ccc; */
+    background-color: rgb(255, 255, 255);
+    backdrop-filter: blur(30px);
+    max-height: 200px;
+    overflow-y: auto; 
+    
+  }
+  
+  .dropdown-options li {
+    padding: 5px;
+    cursor: pointer;
+    color: rgb(0, 0, 0) !important;
+   border: 0.5px solid rgb(0, 0, 0);
+   font-size: 14px;
+  }
+  
+ 
+  
+  
+  .dropdown-options li:hover {
+    background-color: #a4a3a3;
+    color: white;
+  }
+
+  button{
+    border: none;
+    border: 1.2px solid rgb(255, 255, 255);
+    border-radius: 8px;
+  }
+.raw{
+    margin-top: -20px ;
+}
+
+/* mbl view navbar */
+
+.phone{
+    display: none ;
+}
+
+
+
+
+/* navbar */
+
+.phone {
+  width: 100%;
+  height: 102px;
+  margin: auto;
+  display: flex;
+  background: transparent;
+  align-items: flex-end;
+  position: relative;
+  justify-content: center;
+ 
+}
+.phone::before {
+  content: '';
+  position: absolute;
+  width: 84%;
+  height: 0px;
+  bottom: -10px;
+  box-shadow: 0 0 25px 9px rgba(255, 0, 0, 0.33), 50px 10px 25px 8px rgba(18, 255, 0, 0.33), -40px 8px 25px 9px rgba(242, 255, 0, 0.33);
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.phone::after {
+  content: '';
+}
+.phone_content {
+  /* filter: contrast(20); */
+  width: 100%;
+  background-color:   #1A2B48;
+  /* background-color: #1A2B48; */
+  overflow: hidden;
+  position: absolute;
+}
+.phone_bottom {
+  width: 100%;
+  height: 55px;
+  /* background: black; */
+  background-color:   #1A2B48;
+  display: flex;
+  justify-content: center;
+  /* filter: blur(10px); */
+}
+
+.inpo {
+  display: none !important;
+}
+
+.lab {
+  cursor: pointer;
+  display: flex;
+  /* width: 33%; */
+  border: none !important;
+  width: 30%;
+  height: 33px;
+  position: relative;
+  z-index: 2;
+  align-items: center;
+  justify-content: center;
+}
+.lab > i {
+  width: 25px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+  z-index: 3;
+  transition: 200ms 100ms cubic-bezier(0.14, -0.08, 0.74, 1.4);
+}
+lab::before {
+  content: '';
+  position: absolute;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+ 
+  background:   #1A2B48;
+  position: absolute;
+  top: 21%;
+  z-index: 1;
+  border-radius: 50%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transition: 200ms cubic-bezier(0.14, -0.08, 0.74, 1.4);
+  box-shadow: 0px 82px 20px 0px rgba(128, 128, 128, 0.29);
+}
+
+.indicator {
+  width: 55px;
+  height:63px;
+  background-image: linear-gradient(0deg, #f7b0b0, rgba(183, 255, 154, 0)), linear-gradient(0deg, rgba(158, 255, 151, 0.75), rgba(183, 255, 154, 0)), linear-gradient(0deg, #b4fffb, rgba(183, 255, 154, 0));
+  background-size: cover;
+  background-position: 0 10px;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: -42px;
+  right: 0;
+  margin: auto;
+  transition: 200ms cubic-bezier(0.14, -0.08, 0.74, 1.4);
+}
+
+#s1:checked ~ [for="s1"] > i {
+  top: -85%;
+  left: 33%;
+}
+
+#s1:checked ~ .circle,
+#s1:checked ~ div div .indicator {
+  left: -83%;
+}
+
+#s2:checked ~ [for="s2"] > i {
+    top: -80%;
+    left: 36%;
+}
+
+#s2:checked ~ .circle,
+#s2:checked ~ div div .indicator {
+  left: -42%;
+}
+
+#s3:checked ~ [for="s3"] > i {
+   top: -85%;
+  left: 33%;
+}
+
+#s3:checked ~ .circle,
+#s3:checked ~ div div .indicator {
+  left: -3%;
+}
+
+#s4:checked ~ [for="s4"] > i {
+    top: -77%;
+    left: 33%;
+}
+
+#s4:checked ~ .circle,
+#s4:checked ~ div div .indicator {
+  left: 37%;
+}
+
+#s5:checked ~ [for="s5"] > i {
+    top: -81%;
+    left: 38%;
+}
+
+#s5:checked ~ .circle,
+#s5:checked ~ div div .indicator {
+  left: 79%;
+}
+
+.lav{
+  color: #ffffff;
+  margin-top: 18px;
+  font-size: 12px;
+
+  
+}
+.lav-one{
+  margin-left: -10px;
+}
+
+
+.icon-one{
+  color: white;
+}
+@media only screen and (max-width: 1400px) and (min-width: 575px) {
+    .phone{
+      display: none !important;
+    }
+  }
+  @media only screen and (max-width: 575px) {
+    .navbar{
+      display: none !important;
+    }
+  }
+
+
+  /* add dynamic fields */
+a{
+  text-decoration: none;
+}
+  .add_button{
+   
+    padding:5px 30px;
+    height: 35px;
+    color: rgb(9, 10, 58) !important;
+    border-radius: 8px;
+    /* font-weight: bold; */
+    border: 1px solid black;
+    font-size: 14px;
+  }
+
+.fa-minus{
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  border: 1px solid black;
+  padding: 5px 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+
+
+/* loader */
+
+
+
+
+/* 
+.showall{
+  opacity: 0;
+ display: none;
+} */
+
+
+
+/*  */

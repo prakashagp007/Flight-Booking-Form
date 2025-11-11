@@ -1,0 +1,1146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./asset/css/form.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- calendar -->
+
+    <link href=
+'https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/ui-lightness/jquery-ui.css' 
+          rel='stylesheet'>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js">
+ </script>
+  
+
+    <title>Flight Booking</title>
+    <!-- radio tab content -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery.min.js"></script>
+    
+  </head>
+  <body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand text-light" href="#">SKYROUTE</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link navl ms-5 active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navl ms-5" aria-current="page" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navl ms-5 " aria-current="page" href="#">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navl ms-5" aria-current="page" href="#">Agent Network</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navl ms-5" aria-current="page" href="#">Contact</a>
+            </li>
+            
+            
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+
+  
+
+    <div class="text-center topie" style="padding: 0px 0px 30px 0px; ">
+      <h1 class="toppiee"  style="font-size: 35px;"><b>Book Your <br> Tickets</b></h1>
+    </div>
+
+
+    <ul class="nav nav-pills  mb-3" id="pills-tab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"  role="tab" aria-controls="pills-home" aria-selected="true">Flight</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"  role="tab" aria-controls="pills-profile" aria-selected="false">Car</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"  role="tab" aria-controls="pills-contact" aria-selected="false">Hotel</button>
+      </li>
+    </ul>
+
+  
+    <div class="card" >
+
+  
+    <div class="tab-content" id="pills-tabContent">
+      <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+
+
+        <div>
+          <div class="d-flex no-wrap">
+           
+            <div><label class="text  ms-3"><input type="radio" name="colorRadio" class="clr active" value="RoundTrip" checked> RoundTrip</label>  </div>
+        
+            <div><label class="text ms-3"><input type="radio" name="colorRadio" class="clr clr1" value="OneWay"> OneWay</label></div>
+            <div><label class="text ms-3"><input type="radio" name="colorRadio" class="clr clr1" value="MultiTrip"> MultiTrip</label></div>
+            <span class="ms-3 line text">|</span>
+           <div><select class="ms-3 mt-1 text texto" name="" id="">
+              <option value="class" class="opt1">Class</option>
+              <option value="premium economy" class="opt1">Premium</option>
+              <option value="business" class="opt1">Business</option>
+              <option value="first" class="opt1">First</option>
+            </select></div> 
+        </div>
+
+
+        <div class="red box" style="display: block;">
+          <form action="">
+
+        <div class="row" style="position: relative;">
+
+         <div class="col-lg-6 col-md-12 col-sm-12" >
+          <div class=" row d-flex no-wrap">
+           
+            <div class="col-6 col-lg-6 col-md-6 col-sm-6">
+              <div class="inp-1 d-flex " style="margin-top: 10px;">
+                <div><i class="fas fa-plane-departure favon"></i></div>
+                <div class="custom-dropdown">
+                <input type="text" id="searchInput" class="inp form-control" placeholder="From Where...">
+                <ul id="cityDropdown" class="dropdown-options">
+               </ul>
+               </div>
+               </div>
+               </div>
+           
+
+            <div class="col-6 col-lg-6 col-md-6 col-sm-6" >
+              <div class="inp-1 d-flex " style="margin-top: 10px;">
+                <div><i class="fas fa-plane-arrival  favon icn "></i></div>
+                <div class="custom-dropdown">
+                <input type="text" id="searchInput1" class="inp form-control" placeholder="To Where...">
+                <ul id="cityDropdown1" class="dropdown-options">
+                </ul>
+                </div>
+                </div>
+              </div>
+
+            </div>
+              
+              
+        
+            <!-- <span>
+              <i class="fa fa-arrow-right-arrow-left"></i>
+             </span> -->
+        
+         </div>
+
+        
+         <div class="col-lg-6 col-md-12 col-sm-12">
+
+
+          <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+              <div class="inputs" >
+                <div class="type1">
+                 <div class="fields">
+                  <div class="row">
+                     <div class="col-6 col-lg-6 col-md-6 col-sm-6">  
+                      <div id="id_startCalendar" class="calendar-widget default-today calen" data-next="#id_deadlineCalendar" date-min="today" tabindex="-1" style="margin-top: 10px;">
+                        <div class="input-wrapper">
+                       <div class="input-1 d-flex">
+                       <div>
+                         <i class="fa-solid fa-calendar-days"></i>
+                       </div>
+                       <div>
+                       <input class="date-field form-control" id="type1-start" type="text" placeholder="Departure" readonly>
+                     </div>
+                     </div>
+                       </div>
+                       <div class="calendar-wrapper">
+                        <div class="dual-calendar">
+                       <div class="calendar">
+                        <div class="calendar-header">
+                       <div class="prev-btn">
+                         <i class="fa fa-angle-left"></i>
+                      </div>
+                        
+                       <div class="month-text">
+                       <p>September 2018</p>
+                        </div>
+                       </div>
+                     <div class="calendar-body">
+                     <div class="date-table">
+                     <div class="date-table-header">
+                     <div class="day sunday">S</div>
+                      <div class="day">M</div>
+                     <div class="day">T</div>
+                      <div class="day">W</div>
+                      <div class="day">T</div>
+                       <div class="day">F</div>
+                       <div class="day saturday">S</div>
+                       </div>
+                       <div class="date-table-body">
+                        </div>
+                         </div>
+                         </div>
+                         </div>
+                         <div class="calendar plus-one">
+                         <div class="calendar-header">
+                         <div class="month-text">
+                     <p>September</p>
+                     </div>
+                         
+                     <div class="next-btn">
+                     <i class="fa fa-angle-right"></i>
+                         </div>
+                        </div>
+                        <div class="calendar-body">
+                        <div class="date-table">
+                       <div class="date-table-header">
+                      <div class="day sunday">S</div>
+                       <div class="day">M</div>
+                       <div class="day">T</div>
+                        <div class="day">W</div>
+                       <div class="day">T</div>
+                         <div class="day">F</div>
+                        <div class="day saturday">S</div>
+                     </div>
+                        <div class="date-table-body">
+                        </div>
+                     </div>
+                              </div>
+                          </div>
+                           </div>
+                         </div>
+                         </div>
+                    </div>
+
+                    <div class="col-6 col-lg-6 col-md-6 col-sm-6">
+                      <div id="id_deadlineCalendar" class="calendar-widget  linked calen1" tabindex="-1" data-link="#id_startCalendar" date-min="link" style="margin-top: 10px; ">
+                        <div class="input-wrapper">
+                         <div class="input-1 d-flex" >
+                           <div>
+                   <i class="fa-solid fa-calendar-days"></i>
+                           </div>
+                           <div>
+                         <input class="date-field form-control" id="type1-deadline" type="text" placeholder="Return" readonly>
+                       </div>
+                         </div>
+                         </div>
+                         <div class="calendar-wrapper">
+                           <div class="dual-calendar duo">
+                   <div class="calendar">
+                     <div class="calendar-header">
+                     <div class="prev-btn">
+                   <i class="fa fa-angle-left"></i>
+                       </div>
+                      
+                    <div class="month-text">
+                    <p>September 2018</p>
+                   </div>
+                   </div>
+                   <div class="calendar-body">
+                            <div class="date-table">
+                            <div class="date-table-header">
+                           <div class="day sunday">S</div>
+                          <div class="day">M</div>
+                           <div class="day">T</div>
+                          <div class="day">W</div>
+                          <div class="day">T</div>
+                          <div class="day">F</div>
+                         <div class="day saturday">S</div>
+                        </div>
+                        <div class="date-table-body">
+                       </div>
+                       </div>
+                   </div>
+                         </div>
+                           <div class="calendar plus-one">
+                           <div class="calendar-header">
+                           <div class="month-text">
+                          <p>September</p>
+                         </div>
+                       
+                           <div class="next-btn">
+                            <i class="fa fa-angle-right"></i>
+                            </div>
+                          </div>
+                         <div class="calendar-body">
+                         <div class="date-table">
+                         <div class="date-table-header">
+                        <div class="day sunday">S</div>
+                        <div class="day">M</div>
+                       <div class="day">T</div>
+                      <div class="day">W</div>
+                     <div class="day">T</div>
+                     <div class="day">F</div>
+                   <div class="day saturday">S</div>
+                       </div>
+                      <div class="date-table-body">
+                           </div>
+                     </div>
+                      </div>
+                    </div>
+                     </div>
+                     </div>
+                      </div>
+                     </div>
+                  </div>
+                
+                
+                </div>
+                
+               </div>
+                 </div>
+            </div>
+
+            <div class="col-lg-6 col-md-12 col-sm-12">
+              <div class="row">
+                <div class=" col-6 col-lg-7 col-md-6 col-sm-6">
+                  <div class="cover2 d-flex" style="margin-top: 10px;">
+                    <div>
+                      <i class="fa fa-user user-one"></i>
+                    </div>
+                    <div class="trav_engine">
+                  
+                      <input type="text" id="txtTotalTravelers" class="txt_Traveler form-control traveler-one" value=" 1 Traveler(s)" readonly="readonly" />
+                  <div class="trav_toggle trav-one text-muted  open">
+                     <a href="#">Open</a>
+                      </div> 
+                   
+                   
+                      <div class="trav_form" style="display:none;">
+                     <div class="trav_item  ">
+                         <div class="trav_inner1">
+                   Adults
+                   <span>12+ yrs</span>
+                         </div>
+                         <div class="trav_inner2" >
+                   <a href="javascript:void(0)" class="minus" onclick="javascript:process(-1)"><i class="fa fa-minus"></i></a>
+                   <input type="text" value="1" id="ddlAdult" class="txt_trav" readonly="readonly" min="1" max="4" onkeypress="return false;">
+                   <a href="javascript:void(0)" class="plus" onclick="javascript:process(1)"><i class="fa fa-plus"></i></a>
+                         </div>
+                     </div>
+                     <div class="trav_item">
+                       <div class="trav_inner1">
+                           Children
+                           <span>2 - 11 yrs</span>
+                       </div>
+                       <div class="trav_inner2">
+                           <a href="javascript:void(0)" class="minus" onclick="javascript:process2(-1)"><i class="fa fa-minus"></i></a>
+                           <input type="text" value="0" id="ddlChild" class="txt_trav" readonly="readonly" onkeypress="return false;">
+                           <a href="javascript:void(0)" class="plus" onclick="javascript:process2(1)"><i class="fa fa-plus"></i></a>
+                       </div>
+                   </div>
+                     <div class="trav_item"  >
+                         <div class="trav_inner1">
+                   Infants
+                   <span>under 2 yrs</span>
+                         </div>
+                         <div class="trav_inner2">
+                   <a href="javascript:void(0)" class="minus" onclick="javascript:process3(-1)"><i class="fa fa-minus"></i></a>
+                   <input type="text" value="0" id="ddlInfant" class="txt_trav" readonly="readonly" onkeypress="return false;">
+                   <a href="javascript:void(0)"  class="plus" onclick="javascript:process3(1)"  ><i class="fa fa-plus"></i></a>
+                         </div>
+                  
+                     </div>
+                  
+                      
+                  
+                  
+                     <div class="trav_item">
+                         <span class="trav_done">Done</span>
+                     </div>
+                     
+                      </div>
+                  </div>
+                   </div>
+                </div>
+                <div class="col-6 col-lg-5 col-md-6 col-sm-6"  >
+                  <button class="btn-1">
+                    Search Flights
+                   </button>
+                </div>
+              </div>
+            </div>
+          </div>
+         </div>
+
+
+
+   
+
+
+
+       
+       
+
+
+       
+        
+
+       
+
+        
+
+       </div>
+      </form>
+
+
+       <div class="row">
+       
+        <div class="col-lg-4 col-md-6 col-sm-12" style="margin-top: 10px;">
+          <div class="airways d-flex">
+            <span><i class="fa fa-search"></i></span>
+            <div>
+              <input type="text" placeholder="Search Preferred Airline" class="search-air">
+            </div>
+           </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12" style="margin-top: 10px;">
+          <label for="checkbox" class="checkbox1 ms-5"><input type="checkbox" > Return to or from another city/airport?</label>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12" style="margin-top: 10px;">
+          <label for="checkbox" class="checkbox2"><input type="checkbox" > Direct Flights</label>
+        </div>
+
+       </div>
+
+
+     
+        
+        
+        </div>
+
+
+        <div class="green box">
+
+        
+
+          <div class="row" style="position: relative;">
+
+            <div class="col-lg-6 col-md-6 col-sm-12">
+
+              <div class="row">
+
+                <div class="col-6 col-lg-6 col-md-6 col-sm-6">
+                  <div class="inp-1 d-flex " style="margin-top: 10px;">
+                    <div><i class="fas fa-plane-departure favon"></i></div>
+                    <div class="custom-dropdown">
+                    <input type="text" id="searchInput2" class="inp" placeholder="From Where...">
+                    <ul id="cityDropdown2" class="dropdown-options">
+                   </ul>
+                   </div>
+                   </div>
+                </div>
+
+                <div class="col-6 col-lg-6 col-md-6 col-sm-6">
+                  <div class="inp-1 d-flex " style="margin-top: 10px;">
+                    <div><i class="fas fa-plane-arrival favon icn"></i></div>
+                    <div class="custom-dropdown">
+                    <input type="text" id="searchInput3" class="inp" placeholder="To Where...">
+                    <ul id="cityDropdown3" class="dropdown-options">
+                   </ul>
+                   </div>
+                   </div>
+                </div>
+                <!-- <span><i class="fa fa-arrow-right-arrow-left"></i></span> -->
+
+              </div>
+
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-12">
+
+              <div class="row">
+
+                <div class="col-lg-4 col-md-6 col-sm-6" style="margin-top: 10px;" >
+                  <div class="inputs" >
+                    <div class="type1">
+                     <div class="fields">
+                     <div id="id_startCalendar" class="calendar-widget default-today" data-next="#id_deadlineCalendar" date-min="today" >
+                     <div class="wrapper-one">
+                    <div class="input-one inp-one d-flex">
+                    <div>
+                      <i class="fa-solid fa-calendar-days calendar-days"></i>
+                    </div>
+                    <div>
+                    <input class="date-field field-one" id="type1-start" type="text" placeholder="Departure" readonly>
+                  </div>
+                  </div>
+                    </div>
+                    <div class="calendar-wrapper">
+                     <div class="dual-calendar">
+                    <div class="calendar">
+                     <div class="calendar-header">
+                    <div class="prev-btn">
+                      <i class="fa fa-angle-left"></i>
+                   </div>
+                     
+                    <div class="month-text">
+                    <p>September 2018</p>
+                     </div>
+                    </div>
+                  <div class="calendar-body">
+                  <div class="date-table">
+                  <div class="date-table-header">
+                  <div class="day sunday">S</div>
+                   <div class="day">M</div>
+                  <div class="day">T</div>
+                   <div class="day">W</div>
+                   <div class="day">T</div>
+                    <div class="day">F</div>
+                    <div class="day saturday">S</div>
+                    </div>
+                    <div class="date-table-body">
+                     </div>
+                      </div>
+                      </div>
+                      </div>
+                      <div class="calendar plus-one">
+                      <div class="calendar-header">
+                      <div class="month-text">
+                  <p>September</p>
+                  </div>
+                      
+                  <div class="next-btn">
+                  <i class="fa fa-angle-right"></i>
+                      </div>
+                     </div>
+                     <div class="calendar-body">
+                     <div class="date-table">
+                    <div class="date-table-header">
+                   <div class="day sunday">S</div>
+                    <div class="day">M</div>
+                    <div class="day">T</div>
+                     <div class="day">W</div>
+                    <div class="day">T</div>
+                      <div class="day">F</div>
+                     <div class="day saturday">S</div>
+                  </div>
+                     <div class="date-table-body">
+                     </div>
+                  </div>
+                           </div>
+                       </div>
+                        </div>
+                      </div>
+                      </div>
+                      </div>
+                      </div>
+                      </div>
+                </div>
+
+                <div class="col-6 col-lg-4 col-md-6 col-sm-6">
+                  <div class="cover1 d-flex" style="margin-top: 10px;">
+                    <div>
+                      <i class="fa fa-user user-one"></i>
+                    </div>
+                    <div class="trav_engine">
+                  
+                      <input type="text" id="txtTotalTravelers1" class="txt_Traveler traveler-one" value=" 1 Traveler(s)" readonly="readonly" />
+                  <div class="trav_toggle trav-one text-muted  open">
+                     <a href="#">Open</a>
+                      </div> 
+                   
+                   
+                      <div class="trav_form" style="display:none;">
+                     <div class="trav_item  ">
+                         <div class="trav_inner1">
+                   Adults
+                   <span>12+ yrs</span>
+                         </div>
+                         <div class="trav_inner2" >
+                   <a href="javascript:void(0)" class="minus" onclick="javascript:process4(-1)"><i class="fa fa-minus"></i></a>
+                   <input type="text" value="1" id="ddlAdult1" class="txt_trav" readonly="readonly" min="1" max="4" onkeypress="return false;">
+                   <a href="javascript:void(0)" class="plus" onclick="javascript:process4(1)"><i class="fa fa-plus"></i></a>
+                         </div>
+                     </div>
+                     <div class="trav_item">
+                       <div class="trav_inner1">
+                           Children
+                           <span>2 - 11 yrs</span>
+                       </div>
+                       <div class="trav_inner2">
+                           <a href="javascript:void(0)" class="minus" onclick="javascript:process5(-1)"><i class="fa fa-minus"></i></a>
+                           <input type="text" value="0" id="ddlChild1" class="txt_trav" readonly="readonly" onkeypress="return false;">
+                           <a href="javascript:void(0)" class="plus" onclick="javascript:process5(1)"><i class="fa fa-plus"></i></a>
+                       </div>
+                   </div>
+                     <div class="trav_item"  >
+                         <div class="trav_inner1">
+                   Infants
+                   <span>under 2 yrs</span>
+                         </div>
+                         <div class="trav_inner2">
+                   <a href="javascript:void(0)" class="minus" onclick="javascript:process6(-1)"><i class="fa fa-minus"></i></a>
+                   <input type="text" value="0" id="ddlInfant1" class="txt_trav" readonly="readonly" onkeypress="return false;">
+                   <a href="javascript:void(0)"  class="plus" onclick="javascript:process6(1)"  ><i class="fa fa-plus"></i></a>
+                         </div>
+                  
+                     </div>
+                  
+                      
+                  
+                  
+                     <div class="trav_item">
+                         <span class="trav_done">Done</span>
+                     </div>
+                     
+                      </div>
+                  </div>
+                   </div> 
+                </div>
+
+                <div class="col-6 col-lg-4 col-md-6 col-sm-6" >
+                  <button class="btn-two">Search Flights</button>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          
+
+
+         <div class="row " style="margin-top: 20px;">
+          <div class=" col-lg-4 col-md-12 col-sm-12 d-flex justify-content-between flex-wrap">
+          <div class="airways d-flex">
+           <span><i class="fa fa-search"></i></span>
+           <div>
+             <input type="text" placeholder="Search Preferred Airline" class="search-air">
+           </div>
+          </div>
+        
+          <div>
+           <label for="checkbox" class="checkbox2"><input type="checkbox" > Direct Flights</label>
+          </div>
+         </div>
+         </div>
+
+
+        </div>
+
+
+        <div class="blue box">
+
+          <div class="row">
+
+            <div class="col-lg-6 col-md-12 col-sm-12">
+              <div class="row">
+                <div class="col-6 col-lg-6 col-md-6 col-sm-6">
+                  <div class="inp-1 d-flex " style="margin-top: 10px;">
+                    <div><i class="fas fa-plane-departure favon"></i></div>
+                    <div class="custom-dropdown">
+                    <input type="text" id="searchInput4" class="inp" placeholder="From Where...">
+                    <ul id="cityDropdown4" class="dropdown-options">
+                   </ul>
+                   </div>
+                   </div>
+                </div>
+
+                <div class=" col-6 col-lg-6 col-md-6 col-sm-6">
+                  <div class="inp-1 d-flex " style="margin-top: 10px;">
+                    <div><i class="fas fa-plane-arrival favon"></i></div>
+                    <div class="custom-dropdown">
+                    <input type="text" id="searchInput5" class="inp" placeholder="To Where...">
+                    <ul id="cityDropdown5" class="dropdown-options">
+                   </ul>
+                   </div>
+                   </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-lg-6 col-md-12 col-sm-12">
+              <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6" style="margin-top: 10px;" >
+                  <div class="inputs" >
+                    <div class="type1">
+                     <div class="fields">
+                     <div id="id_startCalendar" class="calendar-widget default-today" data-next="#id_deadlineCalendar" date-min="today" >
+                     <div class="wrapper-one">
+                    <div class="input-one inp-one d-flex">
+                    <div>
+                      <i class="fa-solid fa-calendar-days calendar-days"></i>
+                    </div>
+                    <div>
+                    <input class="date-field field-one" id="type1-start" type="text" placeholder="Departure" readonly>
+                  </div>
+                  </div>
+                    </div>
+                    <div class="calendar-wrapper">
+                     <div class="dual-calendar">
+                    <div class="calendar">
+                     <div class="calendar-header">
+                    <div class="prev-btn">
+                      <i class="fa fa-angle-left"></i>
+                   </div>
+                     
+                    <div class="month-text">
+                    <p>September 2018</p>
+                     </div>
+                    </div>
+                  <div class="calendar-body">
+                  <div class="date-table">
+                  <div class="date-table-header">
+                  <div class="day sunday">S</div>
+                   <div class="day">M</div>
+                  <div class="day">T</div>
+                   <div class="day">W</div>
+                   <div class="day">T</div>
+                    <div class="day">F</div>
+                    <div class="day saturday">S</div>
+                    </div>
+                    <div class="date-table-body">
+                     </div>
+                      </div>
+                      </div>
+                      </div>
+                      <div class="calendar plus-one">
+                      <div class="calendar-header">
+                      <div class="month-text">
+                  <p>September</p>
+                  </div>
+                      
+                  <div class="next-btn">
+                  <i class="fa fa-angle-right"></i>
+                      </div>
+                     </div>
+                     <div class="calendar-body">
+                     <div class="date-table">
+                    <div class="date-table-header">
+                   <div class="day sunday">S</div>
+                    <div class="day">M</div>
+                    <div class="day">T</div>
+                     <div class="day">W</div>
+                    <div class="day">T</div>
+                      <div class="day">F</div>
+                     <div class="day saturday">S</div>
+                  </div>
+                     <div class="date-table-body">
+                     </div>
+                  </div>
+                           </div>
+                       </div>
+                        </div>
+                      </div>
+                      </div>
+                      </div>
+                      </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                  <div class="cover1 d-flex" style="margin-top: 10px;">
+                    <div>
+                      <i class="fa fa-user user-one"></i>
+                    </div>
+                    <div class="trav_engine">
+                  
+                      <input type="text" id="txtTotalTravelers2" class="txt_Traveler traveler-one" value=" 1 Traveler(s)" readonly="readonly" />
+                  <div class="trav_toggle trav-one text-muted  open">
+                     <a href="#">Open</a>
+                      </div> 
+                   
+                   
+                      <div class="trav_form" style="display:none;">
+                     <div class="trav_item  ">
+                         <div class="trav_inner1">
+                   Adults
+                   <span>12+ yrs</span>
+                         </div>
+                         <div class="trav_inner2" >
+                   <a href="javascript:void(0)" class="minus" onclick="javascript:process7(-1)"><i class="fa fa-minus"></i></a>
+                   <input type="text" value="1" id="ddlAdult2" class="txt_trav" readonly="readonly" min="1" max="4" onkeypress="return false;">
+                   <a href="javascript:void(0)" class="plus" onclick="javascript:process7(1)"><i class="fa fa-plus"></i></a>
+                         </div>
+                     </div>
+                     <div class="trav_item">
+                       <div class="trav_inner1">
+                           Children
+                           <span>2 - 11 yrs</span>
+                       </div>
+                       <div class="trav_inner2">
+                           <a href="javascript:void(0)" class="minus" onclick="javascript:process8(-1)"><i class="fa fa-minus"></i></a>
+                           <input type="text" value="0" id="ddlChild2" class="txt_trav" readonly="readonly" onkeypress="return false;">
+                           <a href="javascript:void(0)" class="plus" onclick="javascript:process8(1)"><i class="fa fa-plus"></i></a>
+                       </div>
+                   </div>
+                     <div class="trav_item"  >
+                         <div class="trav_inner1">
+                   Infants
+                   <span>under 2 yrs</span>
+                         </div>
+                         <div class="trav_inner2">
+                   <a href="javascript:void(0)" class="minus" onclick="javascript:process9(-1)"><i class="fa fa-minus"></i></a>
+                   <input type="text" value="0" id="ddlInfant2" class="txt_trav" readonly="readonly" onkeypress="return false;">
+                   <a href="javascript:void(0)"  class="plus" onclick="javascript:process9(1)"  ><i class="fa fa-plus"></i></a>
+                         </div>
+                  
+                     </div>
+                  
+                      
+                  
+                  
+                     <div class="trav_item">
+                         <span class="trav_done">Done</span>
+                     </div>
+                     
+                      </div>
+                  </div>
+                   </div> 
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6" >
+                  <button class="btn-two btnon">Search Flights</button>
+                </div>
+              </div>
+              
+            </div>
+
+          </div>
+          
+        
+          <div class="row">
+
+            <div class="col-lg-6 col-md-12 col-sm-12">
+
+              <div class="row">
+
+                <div class="col-6 col-lg-6 col-md-6 col--sm-6">
+                  <div class="inp-1 d-flex " style="margin-top: 10px;">
+                    <div><i class="fas fa-plane-departure favon"></i></div>
+                    <div class="custom-dropdown">
+                    <input type="text" id="searchInput6" class="inp" placeholder="From Where...">
+                    <ul id="cityDropdown6" class="dropdown-options">
+                   </ul>
+                   </div>
+                   </div>
+                </div>
+                
+                <div class=" col-6 col-lg-6 col-md-6 col--sm-6">
+                  <div class="inp-1 d-flex " style="margin-top: 10px;">
+                    <div><i class="fas fa-plane-arrival favon"></i></div>
+                    <div class="custom-dropdown">
+                    <input type="text" id="searchInput7" class="inp" placeholder="To Where...">
+                    <ul id="cityDropdown7" class="dropdown-options">
+                   </ul>
+                   </div>
+                   </div>
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="col-lg-6 col-md-12 col-sm-12" style="margin-top: 10px;">
+              <div class="inputs" >
+                <div class="type1">
+                 <div class="fields">
+                 <div id="id_startCalendar" class="calendar-widget default-today" data-next="#id_deadlineCalendar" date-min="today" >
+                 <div class="wrapper-one">
+                <div class="input-one inp-one d-flex">
+                <div>
+                  <i class="fa-solid fa-calendar-days calendar-days"></i>
+                </div>
+                <div>
+                <input class="date-field field-one" id="type1-start" type="text" placeholder="Departure" readonly>
+              </div>
+              </div>
+                </div>
+                <div class="calendar-wrapper">
+                 <div class="dual-calendar">
+                <div class="calendar">
+                 <div class="calendar-header">
+                <div class="prev-btn">
+                  <i class="fa fa-angle-left"></i>
+               </div>
+                 
+                <div class="month-text">
+                <p>September 2018</p>
+                 </div>
+                </div>
+              <div class="calendar-body">
+              <div class="date-table">
+              <div class="date-table-header">
+              <div class="day sunday">S</div>
+               <div class="day">M</div>
+              <div class="day">T</div>
+               <div class="day">W</div>
+               <div class="day">T</div>
+                <div class="day">F</div>
+                <div class="day saturday">S</div>
+                </div>
+                <div class="date-table-body">
+                 </div>
+                  </div>
+                  </div>
+                  </div>
+                  <div class="calendar plus-one">
+                  <div class="calendar-header">
+                  <div class="month-text">
+              <p>September</p>
+              </div>
+                  
+              <div class="next-btn">
+              <i class="fa fa-angle-right"></i>
+                  </div>
+                 </div>
+                 <div class="calendar-body">
+                 <div class="date-table">
+                <div class="date-table-header">
+               <div class="day sunday">S</div>
+                <div class="day">M</div>
+                <div class="day">T</div>
+                 <div class="day">W</div>
+                <div class="day">T</div>
+                  <div class="day">F</div>
+                 <div class="day saturday">S</div>
+              </div>
+                 <div class="date-table-body">
+                 </div>
+              </div>
+                       </div>
+                   </div>
+                    </div>
+                  </div>
+                  </div>
+                  </div>
+                  </div>
+                  </div>
+            </div>
+
+          </div>
+
+         
+
+
+
+           <div class="row">
+            <div class="customer_records_dynamic"></div>
+            <div class="customer_records">
+              
+              <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="row">
+                <div class="col-6 col-lg-6 col-md-6 col-sm-6">
+                  <div class="inp-1 d-flex " style="margin-top: 10px;">
+                    <div><i class="fas fa-plane-departure favon"></i></div>
+                    <div class="custom-dropdown">
+                    <input type="text" id="searchInput8" class="inp" placeholder="From Where...">
+                    <ul id="cityDropdown8" class="dropdown-options">
+                   </ul>
+                   </div>
+                   </div>
+                </div>
+      
+                <div class="col-6 col-lg-6 col-md-6 col-sm-6">
+                  <div class="inp-1 d-flex " style="margin-top: 10px;">
+                    <div><i class="fas fa-plane-arrival favon"></i></div>
+                    <div class="custom-dropdown">
+                    <input type="text" id="searchInput9" class="inp" placeholder="To Where...">
+                    <ul id="cityDropdown9" class="dropdown-options">
+                   </ul>
+                   </div>
+                   </div>
+                </div>
+              </div>
+            </div>
+      
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                  <div class="row">
+                    <div class="col-lg-4  col-md-6 col-sm-6">
+                  <div class="inputs" style="margin-top: 10px;" >
+                    <div class="type1">
+                     <div class="fields">
+                     <div id="id_startCalendar" class="calendar-widget default-today" data-next="#id_deadlineCalendar" date-min="today" >
+                     <div class="wrapper-one">
+                    <div class="input-one inp-one d-flex">
+                    <div>
+                      <i class="fa-solid fa-calendar-days calendar-days"></i>
+                    </div>
+                    <div>
+                    <input class="date-field field-one" id="type1-start" type="text" placeholder="Departure" readonly>
+                  </div>
+                  </div>
+                    </div>
+                    <div class="calendar-wrapper">
+                     <div class="dual-calendar">
+                    <div class="calendar">
+                     <div class="calendar-header">
+                    <div class="prev-btn">
+                      <i class="fa fa-angle-left"></i>
+                   </div>
+                     
+                    <div class="month-text">
+                    <p>September 2018</p>
+                     </div>
+                    </div>
+                  <div class="calendar-body">
+                  <div class="date-table">
+                  <div class="date-table-header">
+                  <div class="day sunday">S</div>
+                   <div class="day">M</div>
+                  <div class="day">T</div>
+                   <div class="day">W</div>
+                   <div class="day">T</div>
+                    <div class="day">F</div>
+                    <div class="day saturday">S</div>
+                    </div>
+                    <div class="date-table-body">
+                     </div>
+                      </div>
+                      </div>
+                      </div>
+                      <div class="calendar plus-one">
+                      <div class="calendar-header">
+                      <div class="month-text">
+                  <p>September</p>
+                  </div>
+                      
+                  <div class="next-btn">
+                  <i class="fa fa-angle-right"></i>
+                      </div>
+                     </div>
+                     <div class="calendar-body">
+                     <div class="date-table">
+                    <div class="date-table-header">
+                   <div class="day sunday">S</div>
+                    <div class="day">M</div>
+                    <div class="day">T</div>
+                     <div class="day">W</div>
+                    <div class="day">T</div>
+                      <div class="day">F</div>
+                     <div class="day saturday">S</div>
+                  </div>
+                     <div class="date-table-body">
+                     </div>
+                  </div>
+                           </div>
+                       </div>
+                        </div>
+                      </div>
+                      </div>
+                      </div>
+                      </div>
+                      </div>
+                </div>
+
+                 <div class="col-lg-4 col-md-6 col-sm-6" style="margin-top: 10px;">
+                <button class="extra-fields-customer" href="#">Add Flights</button>
+              </div> 
+            </div>
+
+                </div>
+             
+          
+              
+            </div>
+          
+          
+           
+          
+          </div>
+          
+          </div>
+
+          <div>
+            <button class="btnoff btn-two">Search Flights</button>
+          </div>
+
+           <div class="row " style="margin-top: 20px;">
+            <div class=" col-lg-4 col-md-12 col-sm-12 d-flex justify-content-between flex-wrap">
+            <div class="airways d-flex">
+             <span><i class="fa fa-search"></i></span>
+             <div>
+               <input type="text" placeholder="Search Preferred Airline" class="search-air">
+             </div>
+            </div>
+          
+            <div>
+             <label for="checkbox" class="checkbox2"><input type="checkbox"> Direct Flights</label>
+            </div>
+           </div>
+           </div>
+
+        </div>
+        </div>
+
+
+      </div>
+
+
+
+
+      <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+    </div>
+        
+
+
+
+
+
+      <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"></div>
+    </div>
+  </div>
+
+
+
+
+  <div class="phone">
+    <input type="radio" class="inpo" name="s" id="s1">
+    <input type="radio" class="inpo" name="s" id="s2" checked="checked">
+    <input type="radio" class="inpo" name="s" id="s3">
+    <input type="radio" class="inpo" name="s" id="s4">
+    <input type="radio" class="inpo" name="s" id="s5">
+    <label class="lab "  for="s1"><i class="fa-solid icon-one fa-house-chimney"></i><span class="lav lav-one">Home</span> </label>
+   <label class="lab " for="s2"><i class="fa-solid icon-one fa-globe"></i><span class="lav lav-one">About</span></label>
+    <label class="lab" for="s3"><i class="fa-brands icon-one fa-servicestack"></i><span class="lav">Services</span> </label>
+      <label class="lab" for="s4"><i class="fa-solid fa-diagram-project icon-one"> </i> <span class="lav">Network</span></label>
+      <label class="lab" for="s5"><i class="fa-solid fa-phone icon-one"></i><span class="lav">Contact</span></label>
+     
+   
+    <div class="circle"></div>
+    <div class="phone_content">
+      <div class="phone_bottom">
+        <span class="indicator"></span>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+    <script type="text/javascript" src="./asset/css/form.js"></script>
+    <!-- calendar -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
