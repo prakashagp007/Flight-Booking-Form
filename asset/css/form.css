@@ -1639,11 +1639,7 @@ lab::before {
   color: white;
 }
 
-@media (min-width: 575px) {
-  .phone {
-    display: none !important;
-  }
-}
+
 
 .navbar {
   background-color: #1A2B48;
@@ -1696,3 +1692,8 @@ lab::before {
 input[type="text"] {
   font-size: 14px;
 }
+
+
+  .phone {
+    display: none !important;
+  }

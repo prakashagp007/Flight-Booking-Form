@@ -876,10 +876,6 @@ button{
 
 /* mbl view navbar */
 
-.phone{
-    display: none ;
-}
-
 
 
 
@@ -930,6 +926,10 @@ button{
 
 .inpo {
   display: none !important;
+}
+
+.phone{
+    display: none ;
 }
 
 .lab {
